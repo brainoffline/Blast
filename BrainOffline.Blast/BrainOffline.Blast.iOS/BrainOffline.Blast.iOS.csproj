@@ -149,6 +149,20 @@
       <Project>{f545f097-44b2-4826-a7f7-c652b7869cec}</Project>
       <Name>BrainOffline.Blast.Forms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BrainOffline.Blast\BrainOffline.Blast.csproj">
+      <Project>{261aa891-6549-4d36-863b-18a231e402a7}</Project>
+      <Name>BrainOffline.Blast</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BrainOffline.Brain.iOS\BrainOffline.Brain.iOS.csproj">
+      <Project>{2bc8bd29-5dd6-4321-9e58-8a07ae82ea68}</Project>
+      <Name>BrainOffline.Brain.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\BrainOffline.Brain\BrainOffline.Brain.csproj">
+      <Project>{8f20fb90-4020-4f7c-adf8-471213c0c1b8}</Project>
+      <Name>BrainOffline.Brain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

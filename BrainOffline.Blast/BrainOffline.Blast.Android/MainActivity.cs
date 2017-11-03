@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 using Android.App;
 using Android.Content;
@@ -11,7 +11,11 @@ using BrainOffline.Blast.Forms;
 
 namespace BrainOffline.Blast.Droid
 {
-    [Activity(Label = "BrainOffline.Blast.Android", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "BrainOffline.Blast.Android", 
+        Icon = "@drawable/icon",
+        Theme = "@style/MyTheme",
+        //MainLauncher = true,
+        ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
