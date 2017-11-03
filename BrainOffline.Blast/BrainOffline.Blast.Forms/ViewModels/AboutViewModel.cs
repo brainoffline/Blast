@@ -3,7 +3,7 @@ using System.Windows.Input;
 
 using Xamarin.Forms;
 
-namespace BrainOffline.Blast
+namespace BrainOffline.Blast.Forms
 {
     public class AboutViewModel : BaseViewModel
     {

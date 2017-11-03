@@ -5,7 +5,7 @@
         public MainPage()
         {
             this.InitializeComponent();
-            LoadApplication(new BrainOffline.Blast.App());
+            LoadApplication(new BrainOffline.Blast.Forms.App());
         }
     }
 }

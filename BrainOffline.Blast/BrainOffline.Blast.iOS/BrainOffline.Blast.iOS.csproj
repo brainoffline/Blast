@@ -114,12 +114,6 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrainOffline.Blast\BrainOffline.Blast.csproj">
-      <Project>{b2362726-6d97-4799-82f8-b9476064d437}</Project>
-      <Name>BrainOffline.Blast</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
       <InProject>false</InProject>
     </ImageAsset>
@@ -149,6 +143,12 @@
     <BundleResource Include="Resources\xamarin_logo.png" />
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BrainOffline.Blast.Forms\BrainOffline.Blast.Forms.csproj">
+      <Project>{f545f097-44b2-4826-a7f7-c652b7869cec}</Project>
+      <Name>BrainOffline.Blast.Forms</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BrainOffline.Blast
+namespace BrainOffline.Blast.Forms
 {
     public interface IDataStore<T>
     {

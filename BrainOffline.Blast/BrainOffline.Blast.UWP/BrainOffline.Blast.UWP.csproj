@@ -134,9 +134,9 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrainOffline.Blast\BrainOffline.Blast.csproj">
-      <Project>{784f2df5-9a06-40c0-a2af-cd84e8e7f1f8}</Project>
-      <Name>BrainOffline.Blast</Name>
+    <ProjectReference Include="..\BrainOffline.Blast.Forms\BrainOffline.Blast.Forms.csproj">
+      <Project>{f545f097-44b2-4826-a7f7-c652b7869cec}</Project>
+      <Name>BrainOffline.Blast.Forms</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

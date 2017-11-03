@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-namespace BrainOffline.Blast
+namespace BrainOffline.Blast.Forms
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

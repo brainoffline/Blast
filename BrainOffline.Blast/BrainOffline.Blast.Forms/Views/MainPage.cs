@@ -2,7 +2,7 @@
 
 using Xamarin.Forms;
 
-namespace BrainOffline.Blast
+namespace BrainOffline.Blast.Forms
 {
     public class MainPage : TabbedPage
     {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace BrainOffline.Blast
+namespace BrainOffline.Blast.Forms
 {
     public partial class ItemsPage : ContentPage
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BrainOffline.Blast
+namespace BrainOffline.Blast.Forms
 {
     public class ItemDetailViewModel : BaseViewModel
     {

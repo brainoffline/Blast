@@ -133,9 +133,9 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrainOffline.Blast\BrainOffline.Blast.csproj">
-      <Project>{a3a3af44-2c98-4681-9a69-b48167a31908}</Project>
-      <Name>BrainOffline.Blast</Name>
+    <ProjectReference Include="..\BrainOffline.Blast.Forms\BrainOffline.Blast.Forms.csproj">
+      <Project>{f545f097-44b2-4826-a7f7-c652b7869cec}</Project>
+      <Name>BrainOffline.Blast.Forms</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

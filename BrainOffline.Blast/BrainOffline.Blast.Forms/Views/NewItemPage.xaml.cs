@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace BrainOffline.Blast
+namespace BrainOffline.Blast.Forms
 {
     public partial class NewItemPage : ContentPage
     {

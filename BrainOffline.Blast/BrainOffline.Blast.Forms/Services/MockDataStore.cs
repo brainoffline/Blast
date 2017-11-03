@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-[assembly: Xamarin.Forms.Dependency(typeof(BrainOffline.Blast.MockDataStore))]
-namespace BrainOffline.Blast
+[assembly: Xamarin.Forms.Dependency(typeof(BrainOffline.Blast.Forms.MockDataStore))]
+namespace BrainOffline.Blast.Forms
 {
     public class MockDataStore : IDataStore<Item>
     {

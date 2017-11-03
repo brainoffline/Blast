@@ -4,7 +4,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace BrainOffline.Blast
+namespace BrainOffline.Blast.Forms
 {
     public partial class App : Application
     {
