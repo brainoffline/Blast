@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace BrainOffline.Blast.Forms
+namespace BrainOffline.Blast
 {
     public class Item
     {
