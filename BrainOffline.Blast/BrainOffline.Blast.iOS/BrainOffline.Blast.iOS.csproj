@@ -158,6 +158,10 @@
       <Project>{261aa891-6549-4d36-863b-18a231e402a7}</Project>
       <Name>BrainOffline.Blast</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BrainOffline.Brain.Forms\BrainOffline.Brain.Forms.csproj">
+      <Project>{85288551-3376-4a27-b85d-2062a275fbe7}</Project>
+      <Name>BrainOffline.Brain.Forms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BrainOffline.Brain.iOS\BrainOffline.Brain.iOS.csproj">
       <Project>{2bc8bd29-5dd6-4321-9e58-8a07ae82ea68}</Project>
       <Name>BrainOffline.Brain.iOS</Name>

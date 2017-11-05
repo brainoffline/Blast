@@ -142,6 +142,10 @@
       <Project>{261aa891-6549-4d36-863b-18a231e402a7}</Project>
       <Name>BrainOffline.Blast</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BrainOffline.Brain.Forms\BrainOffline.Brain.Forms.csproj">
+      <Project>{85288551-3376-4a27-b85d-2062a275fbe7}</Project>
+      <Name>BrainOffline.Brain.Forms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BrainOffline.Brain.UWP\BrainOffline.Brain.UWP.csproj">
       <Project>{13488055-fc97-470d-992f-9fb8336a95a5}</Project>
       <Name>BrainOffline.Brain.UWP</Name>

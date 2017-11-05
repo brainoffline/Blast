@@ -159,6 +159,10 @@
       <Project>{d9db7c77-c07b-4ef0-9756-a97d67435bf3}</Project>
       <Name>BrainOffline.Brain.Android</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BrainOffline.Brain.Forms\BrainOffline.Brain.Forms.csproj">
+      <Project>{85288551-3376-4a27-b85d-2062a275fbe7}</Project>
+      <Name>BrainOffline.Brain.Forms</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BrainOffline.Brain\BrainOffline.Brain.csproj">
       <Project>{8f20fb90-4020-4f7c-adf8-471213c0c1b8}</Project>
       <Name>BrainOffline.Brain</Name>
